@@ -6,6 +6,11 @@ databind core component, version 2.x
 
 Tatu Saloranta, tatu.saloranta@iki.fi: author
 
+Bartosz Baranowski (baranowb@github)
+  * Reported #2589: `DOMDeserializer`: setExpandEntityReferences(false) may not prevent
+   external entity expansion in all cases
+ (2.11.0)
+
 Pascal Glinas:
   * Contributed fixes to 'MappingIterator' handling (Pull#58 and Pull#59)
    (2.1.0)

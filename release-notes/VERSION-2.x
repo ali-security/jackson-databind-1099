@@ -6,6 +6,9 @@ Project: jackson-databind
 
 2.9.7 (19-Sep-2018)
 
+#2589: `DOMDeserializer`: setExpandEntityReferences(false) may not prevent
+  external entity expansion in all cases
+ (reported by Bartosz B)
 #2060: `UnwrappingBeanPropertyWriter` incorrectly assumes the found serializer is
   of type `UnwrappingBeanSerializer`
  (reported by Petar T)
