@@ -76,7 +76,7 @@ public class IllegalTypesCheckTest extends BaseMapTest
     }
 
     // // // Tests for [databind#1855]
-    public void testJDKTypes1855() throws Exception
+    public void JDKTypes1855() throws Exception
     {
         // apparently included by JDK?
         _testIllegalType("com.sun.org.apache.bcel.internal.util.ClassLoader");
